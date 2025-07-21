@@ -282,34 +282,62 @@ const Index = () => {
       </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-20 px-6 bg-muted/30">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400">Experience</h2>
-          <Card className="backdrop-blur-sm bg-card/50 border-border/50 max-w-4xl mx-auto">
-            <CardContent className="p-8">
-              <div className="flex items-start gap-6">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                  C
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-semibold mb-2">Full-Stack Web Development Intern</h3>
-                  <p className="text-primary font-medium mb-2">CodTech IT Solutions | March 2025 – April 2025</p>
-                  <ul className="space-y-2 text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
-                      Developed a dynamic weather web app using Angular and public APIs
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
-                      Built a real-time collaborative document editor using full-stack technologies
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
+          <section id="experience" className="py-20 px-6 bg-muted/30">
+            <div className="container mx-auto">
+              <h2 className="text-4xl font-bold text-center mb-16 text-cyan-400">Experience</h2>
+
+              {/* CodTech Internship */}
+              <Card className="backdrop-blur-sm bg-card/50 border-border/50 max-w-4xl mx-auto mb-8">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                      C
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-2xl font-semibold mb-2">Full-Stack Web Development Intern</h3>
+                      <p className="text-primary font-medium mb-2">
+                        CodTech IT Solutions | March 2025 – April 2025
+                      </p>
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li className="flex items-start gap-2">
+                          <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                          Developed a dynamic weather web app using Angular and public APIs
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                          Built a real-time collaborative document editor using full-stack technologies
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* SmartBridge Internship */}
+              <Card className="backdrop-blur-sm bg-card/50 border-border/50 max-w-4xl mx-auto">
+                <CardContent className="p-8">
+                  <div className="flex items-start gap-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                      S
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-2xl font-semibold mb-2">Full-Stack Web Development (MERN) Intern</h3>
+                      <p className="text-primary font-medium mb-2">
+                        SmartBridge Educational Services Pvt. Ltd. | May 2025 – July 2025
+                      </p>
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li className="flex items-start gap-2">
+                          <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                          Built a real-time food ordering app using full-stack technologies
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </section>
+
 
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6">
